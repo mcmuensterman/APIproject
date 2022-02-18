@@ -72,12 +72,13 @@ p {
 
 button {
     background-color: #3d1e7a;
-    font-size: 2rem;
+    font-size: 5vw;
     color: azure;
     border-radius: 12px;
     border: 2px solid white;
     font-family: Major Mono Display, sans-serif;
     padding: 1rem;
+
 }
 
 button:hover {
@@ -97,12 +98,17 @@ button:hover {
     justify-content: center;
     align-items: center;
     border: 3px solid #2D142C;
+    border-radius: 10%;
     max-height: 100%;
     max-width: 40vw;
     min-width: 25vw;
     margin:10px;
     background-color: #54478b;
 
+}
+
+.card-display:hover {
+    background-color: #FFEEFF;
 }
 
 
