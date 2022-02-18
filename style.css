@@ -1,0 +1,134 @@
+body {
+    background-color: #FFEEFF;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    font-size: 100%;
+    color: #2D142C;
+}
+
+header {
+    border-bottom: 3px solid #2D142C;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+footer {
+    border-top: 3px solid #2D142C;
+}
+
+header h2 {
+    font-family: "Zeyada", sans-serif;
+    font-size: 5vw;
+}
+
+a {
+    display: flex;
+    background-color: #3d1e7a;
+    color:#EEEEEE;
+    text-decoration: none;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 3vw;
+    padding: 3px;
+    border: solid 3px #FFEEFF;
+    justify-content: center;
+    
+}
+
+a:hover {
+    background-color: #54478b;
+    border: solid 3px #3d1e7a;
+    color:#FFEEFF;
+}
+
+h1 {
+    font-family: "Major Mono Display", sans-serif;
+    color: #2D142C;
+    font-size: 5vw;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 4vw;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Major Mono Display", sans-serif;
+    font-size: 3.5vw;
+}
+
+p {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-size: 2.5vw;
+    color: #2D142C;
+    text-align: center;
+    padding: 1vw;
+}
+
+button {
+    background-color: #3d1e7a;
+    font-size: 2rem;
+    color: azure;
+    border-radius: 12px;
+    border: 2px solid white;
+    font-family: Major Mono Display, sans-serif;
+    padding: 1rem;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #54478b;
+}
+
+.buttonBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-display {
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #2D142C;
+    max-height: 100%;
+    max-width: 40vw;
+    min-width: 25vw;
+    margin:10px;
+    background-color: #54478b;
+
+}
+
+
+.deckDisplay {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstDraw {
+    align-self: center;
+}
+
+.classicDraw {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.longDraw {
+    align-self: center;
+}
+
+#logoHeader {
+    max-width: 100%;
+}
+
+#logoFooter {
+    max-width: 100%;
+}

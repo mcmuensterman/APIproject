@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Oldenburg&family=Quattrocento+Sans&family=Zeyada&display=swap" rel="stylesheet">
+    <title>Mystic Insights</title>
+</head>
+<body>
+    <header>
+        <h1>dAily tARot ReAdinG</h1>
+        <img src="./assets/mysticHands.jpg" alt="Mystic Hand Logo" id="logoHeader">
+        <nav>
+            <a href="#">ABOUT US</a>
+            <a href="#">CONTACT US</a>
+            <a href="#">SHOP</a>
+            <a href="#">SOCIALS</a>
+            <a href="#">FURTHER READING</a>
+        </nav>
+        <h2>Choose Your Spread</h2>
+        <p>shuffle the deck after each draw for the most accurate readings </p>
+    </header>
+    <br>
+    <br>
+
+    <div class="buttonBox">
+        <form id="oneCard">
+            <button type= "submit">one cARd</button>
+        </form>
+    
+        <form id="threeCard">
+            <button type= "submit">three cARd</button>
+        </form>
+    
+        <form id="fiveCard">
+            <button type="submit">five cARd</button>
+        </form>
+    </div>
+<br>
+<button type="button" onclick="location.reload();">shuffle the deck</button>
+<br>
+<br>
+<section class="deckDisplay">
+
+    <div class="firstDraw">
+        <div class="card-display">
+            <h2 id="card1">?</h2>
+            <p id="des1"></p>
+        </div>
+    </div>
+
+    <div class="classicDraw">
+        <div class="card-display">
+            <h2 id="card2">?</h2>
+            <p id="des2"></p>
+        </div>
+
+        <div class="card-display">
+            <h2 id="card3">?</h2>
+            <p id="des3"></p>
+        </div>
+    
+        <div class="card-display">
+            <h2 id="card4">?</h2>
+            <p id="des4"></p>
+        </div>
+    </div>
+
+<div class="longDraw">
+    <div class="card-display">
+        <h2 id="card5">?</h2>
+        <p id="des5"></p>
+        <!-- cards will appear here -->
+        <ul id="fortuneList"></ul>
+    </div>
+</div>
+    
+</section>
+<br>
+<br>
+
+    <footer>
+        <img src="./assets/mysticHandsFooter.jpg" alt="Hands Logo" id="logoFooter">
+    </footer>
+
+<br>
+    <script src= "fetch.js"></script>
+</body>
+</html>
