@@ -1,5 +1,5 @@
 // Tarot API
-const baseURL = "https://rws-cards-api.herokuapp.com";
+const baseURL = "tarot-api.onrender.com";
 
 //each type of spread
 const oneCard = document.getElementById("oneCard");
@@ -8,7 +8,7 @@ const threeCard = document.getElementById("threeCard");
 
 const fiveCard = document.getElementById("fiveCard");
 
-//each event listener invokes a different function (reading)
+//each event listener invokes a different type of function (reading)
 oneCard.addEventListener('submit', unoTarjeta);
 
 threeCard.addEventListener('submit', tresTarjetas);
